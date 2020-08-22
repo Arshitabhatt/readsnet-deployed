@@ -1,0 +1,19 @@
+#footer{
+    background:rgb(0,0,128);
+    color:white;
+    overflow: hidden;
+}
+
+#footer .btn-success{
+    border-radius:44px/44px;
+    border:rgb(239, 70, 48);
+    background:rgb(239, 70, 48);
+    color:black; 
+}
+#footer a{
+    color:inherit;
+    size:50px;
+}
+.sz{
+    font-size:2.5rem;
+}

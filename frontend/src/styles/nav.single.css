@@ -1,0 +1,44 @@
+#main .nav-link {
+    color: black;
+    padding-bottom: 20px;
+    
+}
+.navbar-brand img{
+    height: 3.2rem;
+    width:9rem;
+}
+
+#main{
+   background: white;
+    border-bottom: 1.6px solid rgb(169,169,169);
+    padding-bottom:0%;
+    margin-top:0%;
+    margin-bottom: 0%;
+    font-size: 23px;
+}
+
+#main .nav-link:hover{
+    border-bottom: 5px solid rgb(0,0,128);
+    font-weight: bold;
+}
+#main .active{
+    border-bottom: 5px solid rgb(0,0,128);
+    font-weight: bold;
+}
+
+@media (max-width: 992px) { 
+    #main .active{
+        border:0px;
+    }
+    #main .nav-link{
+        text-align: center;
+    }
+    #main .nav-link:hover{
+        border:0px;
+    }
+    .navbar-brand img{
+        height: 3rem;
+        width: 8rem;
+    }
+
+ }

@@ -1,0 +1,70 @@
+.title{
+    color: white;
+}
+.bod{
+    border-bottom: 4px solid rgb(0,0,128);;
+    width: 12.5rem;
+    border-radius: 44px/25px;
+}
+
+#try{
+    padding: 10px 12px;
+    border-radius:44px/44px;
+    background:rgb(0,191,255);
+    border:rgb(0,191,255);
+    color:black;
+    font-weight:bold;
+    transition: 0.2s;
+    margin-left: 5rem;
+}
+
+#try:hover {
+    background:rgb(148,0,211);
+    border:rgb(148,0,211);
+}
+
+
+.bkg{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../uploads/formbg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+  .t{
+    font-size: 18px;
+  }
+  .t img{
+    width:400px;
+    height: 230px;
+  }
+
+  @media (max-width: 576px) { 
+    #single .imt{
+    width: 10rem;
+    height: 7rem;
+    
+   }
+}
+
+@media (max-width: 767.98px) { 
+  .t{
+    font-size: 14px;
+  }
+  .t img{
+    width:200px;
+    height: 110px;
+  }
+ .bkg h1{
+    font-size:20px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  #try{
+    padding: 5px 6px;
+    font-size: 14px;
+  }
+
+ }

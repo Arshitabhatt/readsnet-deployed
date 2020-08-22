@@ -1,0 +1,28 @@
+/* .bg{
+    background: url('../uploads/formbg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+body{
+    overflow-x: hidden;
+}
+.margin{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.fwg{
+    font-weight: bold;
+    font-size: 2.125rem;
+}
+
+.label{
+    font-size: 1.3rem;
+    color: black;
+}
+
+.btn-primary{
+    background-color:#07bbe1;
+    border-color:#07bbe1;
+
+}

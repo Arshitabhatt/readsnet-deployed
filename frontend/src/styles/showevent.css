@@ -1,0 +1,49 @@
+#show .bd{
+    border-bottom: 4px solid rgb(0,0,128);
+    width: 12.5rem;
+    border-radius: 44px/25px;
+}
+
+#show .btn-info{
+    padding: 10px 12px;
+    border-radius:44px/44px;
+    background:rgb(0,191,255);
+    border:rgb(0,191,255);
+    color:black;
+    font-weight:bold;
+    transition: 0.2s;
+}
+
+#show .btn-info:hover{
+    background:rgb(148,0,211);
+    border:rgb(148,0,211);
+}
+.volunteer{
+    color:white; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../uploads/formbg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+}
+
+
+#show .carousel-item img{
+    height: 16rem;
+}
+
+#show .carousel{
+    width: 25rem;
+    height: 16.35rem ;
+    margin-right: 0%;
+    border: 2px solid grey;
+    padding:0%;
+}
+
+#show .d-block{
+    margin:0 0;
+}
+
+#show .name{
+    color: black;
+}
