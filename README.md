@@ -1,4 +1,4 @@
-# Readsnet - Whole world is a library
+# Readsnet - whole world is a library
 To view, visit [here](https://readsnetapp.herokuapp.com/)
 ______________________________________________________
 ### Purpose : 
